@@ -11,4 +11,4 @@ The output file name can be specified by the -o flag, but the default output fil
 
 Example data files have also been provided. An example command that uses these files as inputs is pasted below:
 
-<python percentile_norm.py -i baxter_crc_data_comma.txt -case baxter_crc_samples.txt -control baxter_h_samples.txt -o baxter_percentile_norm.txt>
+<python percentile_norm.py -i baxter_crc_data.txt -case baxter_crc_samples.txt -control baxter_h_samples.txt -o baxter_percentile_norm.txt>
