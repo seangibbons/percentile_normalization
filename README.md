@@ -5,7 +5,7 @@ Here, we provide a simple python script for running the percentile normalization
 
 Usage information:
 
-To access the help function and view script inputs, run <python percentile_norm.py --help> in Terminal. There are three required inputs: -i <OTU table, samples as rows and OTUs/phylotypes as columns>; -case <tab-delimited list of case sample names in the OTU table>; -control <tab-delimited list of control sample names in the OTU table>
+To access the help function and view script inputs, run <python percentile_norm.py --help> in Terminal. There are three required inputs: -i [OTU table, samples as rows and OTUs/phylotypes as columns]; -case [list of case sample names in the OTU table]; -control [list of control sample names in the OTU table]
 
 The output file name can be specified by the -o flag, but the default output file is 'out_percentile_norm.txt'. The delimiter for the OTU table file can be altered with the -sample-d flag with 'tab', 'newline', or 'comma' options (default = 'tab'). The same delimiters can be defined for the sample lists using the -sample-d flag ('tab' is default).
 
