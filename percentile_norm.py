@@ -43,7 +43,6 @@ df = pd.read_csv(args.i, sep=seps[args.otu_d], header=0, index_col=0)
 df = df.replace(0.0,np.nan)
 df_rand = pd.DataFrame(np.random.uniform(0.0,10**-9,size=(df.shape[0],df.shape[1])),index=df.index,columns=df.columns)
 df[pd.isnull(df)] = df_rand[pd.isnull(df)]
-#TODO - need to check the syntax for the line above. I think python2/3 have different interpretations, whether you need df = df[stuff] = df[stuff] or not
 
 # Get numpy array
 x = df.values
