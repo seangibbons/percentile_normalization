@@ -49,9 +49,9 @@ x = df.values
 
 # Read case and control samples as lists
 with open(args.case, 'r') as f:
-    case_list = f.read().split(seps[args.sample_d])
+    case_list = f.read().rstrip().split(seps[args.sample_d])
 with open(args.control, 'r') as f:
-    control_list = f.read().split(seps[args.sample_d])
+    control_list = f.read().rstrip().split(seps[args.sample_d])
 print('Loading data complete.')
 
 # Get control and case indices
