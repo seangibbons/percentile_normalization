@@ -6,7 +6,7 @@ percentiles of control samples.
 __author__ = "Sean Gibbons and Claire Duvallet"
 __copyright__ = "Copyright 2017"
 __credits__ = ["Sean Gibbons; Claire Duvallet; Eric Alm"]
-__reference__ = "bioRxiv DOI: https://doi.org/10.1101/165910"
+__reference__ = "PLoS Computational Biology DOI: https://doi.org/10.1371/journal.pcbi.1006102"
 __license__ = "GPL"
 __version__ = "1.0.0-dev"
 __maintainer__ = "Sean Gibbons"
