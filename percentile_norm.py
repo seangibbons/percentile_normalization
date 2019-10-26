@@ -10,7 +10,7 @@ __reference__ = "PLoS Computational Biology DOI: https://doi.org/10.1371/journal
 __license__ = "GPL"
 __version__ = "1.0.0-dev"
 __maintainer__ = "Sean Gibbons"
-__email__ = "sgibbons@systemsbiology.org"
+__email__ = "sgibbons@isbscience.org"
 
 import numpy as np
 import scipy.stats as sp
